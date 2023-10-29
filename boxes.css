@@ -1,0 +1,219 @@
+.main-body-grid {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+  height: 300px;
+}
+
+.box-styling {
+  background-color: black;
+  border-radius: 50px;
+}
+
+.info-box {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+}
+
+.clubhouse {
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 25px;
+  min-width: 275px;
+}
+
+.summary-div {
+  height: 250px;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.paragraphs {
+  color: white;
+  font-family: Arial;
+}
+
+.title-font {
+  color: white;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+.socials-box {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100px 1fr;
+}
+
+.button-style {
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 30px;
+  border: none;
+}
+
+.button-style :hover {
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 0px;
+} 
+
+.social-logo {
+  max-width: 100px;
+}
+
+.insta-style {
+  width: 60px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.socials-text {
+ margin-top: 40px;
+ margin-left: 20px;
+ font-size: 20px;
+ min-width: 200px;
+}
+
+.internet {
+  border-radius: 33px;
+}
+
+.middle-box {
+  display: grid;
+  grid-template-columns: 275px 1fr;
+}
+
+.left-text-box {
+  height: 150px;
+}
+
+.image-players {
+  height: 150px;
+}
+
+.players-summary {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.players-image {
+  width: 85%;
+  margin-top: 20px;
+  margin-left: 20px;
+  min-height: 150px;
+  min-width: 254px;
+  max-height: 250px;
+  max-width: 424px;
+}
+
+.player-list-div {
+  width: 550px;
+  height: 90px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.player-list-style {
+  min-width: 500px;
+  width: 100%;
+  height: 100%;
+}
+
+.left-bottom-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.home-kit {
+  width: 60%;
+  min-width: 75px;
+  margin-left: 30px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: width 2s, margin-right 1s;
+}
+
+.away-kit,
+.polo-shirt,
+.jun-backpack {
+  margin-left: 30px;
+  width: 60%;
+  min-width: 75px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: width 2s, margin-right 1s;
+}
+
+.home-kit:hover,
+.jun-backpack:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: orangered;
+  width: 80%;
+  margin-right: 200px;
+}
+
+.away-kit:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: blue;
+  width: 80%;
+  margin-right: 200px;
+}
+
+.polo-shirt:hover {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(65, 63, 63);
+  width: 80%;
+  margin-right: 200px;
+}
+
+.coaches-boxes {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  grid-template-rows: 1fr 1fr;
+}
+
+.manager-pic {
+  width: 70%;
+  min-width: 150px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.manager-text {
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+.bournemouth {
+  color: rgb(36, 36, 230);
+}
+
+.anthony {
+  width: 70%;
+  margin-left: 25px;
+  min-width: 150px;
+}
+
+.bottom-left-box {
+  display: grid;
+  grid-template-rows: 1fr 100px;
+}
+
+.girls-team {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+.junior-text {
+  width: 90%;
+  margin-left: 5%;
+  min-width: 375px;
+}
